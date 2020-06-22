@@ -14,6 +14,7 @@
 #else
     import UIKit
 #endif
+import Foundation
 
 public typealias Attributes = [NSAttributedString.Key: Any]
 

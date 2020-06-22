@@ -9,6 +9,8 @@
 //  Copyright © 2014-2015 Sam Soffes. All rights reserved.
 //
 
+import Foundation
+
 public struct Language {
 
     // MARK: - Properties

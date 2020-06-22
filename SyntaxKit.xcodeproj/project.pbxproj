@@ -73,14 +73,14 @@
 		2198CEDA1B36D5DE00BD463F /* ResultSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211989941B2EC38B00F0D786 /* ResultSet.swift */; };
 		2198CEDB1B36D5DE00BD463F /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211989961B2EC38B00F0D786 /* Theme.swift */; };
 		2198CEDC1B36D5E100BD463F /* SyntaxKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 211989951B2EC38B00F0D786 /* SyntaxKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8C08C3C71C36FD6D00D8548F /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C08C3C61C36FD6D00D8548F /* Color.swift */; };
+		72A0DAF524A0F2CF0078CF6F /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A0DAF424A0F2CF0078CF6F /* Color.swift */; };
+		72A0DAF624A0F2E10078CF6F /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A0DAF424A0F2CF0078CF6F /* Color.swift */; };
+		72A0DAF724A0F2E20078CF6F /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A0DAF424A0F2CF0078CF6F /* Color.swift */; };
+		72A0DAF824A0F2E30078CF6F /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A0DAF424A0F2CF0078CF6F /* Color.swift */; };
 		8C10B6441CC38E5200740E00 /* AttributedParsingOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C10B6431CC38E5200740E00 /* AttributedParsingOperation.swift */; };
 		8C10B6451CC38E5200740E00 /* AttributedParsingOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C10B6431CC38E5200740E00 /* AttributedParsingOperation.swift */; };
 		8C10B6461CC38E5200740E00 /* AttributedParsingOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C10B6431CC38E5200740E00 /* AttributedParsingOperation.swift */; };
-		8C10B6471CC3937F00740E00 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C08C3C61C36FD6D00D8548F /* Color.swift */; };
-		8C10B6481CC3938100740E00 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C08C3C61C36FD6D00D8548F /* Color.swift */; };
 		8C10B6491CC393E700740E00 /* ScopedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9003321C5C0B0D00CBA5B0 /* ScopedString.swift */; };
-		8C2EB3571D4B50EE005ECE2B /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C08C3C61C36FD6D00D8548F /* Color.swift */; };
 		8C2EB3581D4B510F005ECE2B /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE64FE21C74B48D0007BA57 /* Language.swift */; };
 		8C2EB3591D4B5126005ECE2B /* AttributedParsingOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C10B6431CC38E5200740E00 /* AttributedParsingOperation.swift */; };
 		8C2EB35A1D4B5126005ECE2B /* ScopedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9003321C5C0B0D00CBA5B0 /* ScopedString.swift */; };
@@ -207,8 +207,8 @@
 		2119898C1B2EC38B00F0D786 /* AttributedParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttributedParser.swift; sourceTree = "<group>"; };
 		2119898D1B2EC38B00F0D786 /* Capture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Capture.swift; sourceTree = "<group>"; };
 		2119898E1B2EC38B00F0D786 /* CaptureCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureCollection.swift; sourceTree = "<group>"; };
-		211989911B2EC38B00F0D786 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = Parser.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		211989921B2EC38B00F0D786 /* Pattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = Pattern.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		211989911B2EC38B00F0D786 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = Parser.swift; sourceTree = "<group>"; };
+		211989921B2EC38B00F0D786 /* Pattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = Pattern.swift; sourceTree = "<group>"; };
 		211989931B2EC38B00F0D786 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		211989941B2EC38B00F0D786 /* ResultSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultSet.swift; sourceTree = "<group>"; };
 		211989951B2EC38B00F0D786 /* SyntaxKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyntaxKit.h; sourceTree = "<group>"; };
@@ -218,8 +218,8 @@
 		2122A6DE1B22B9320006409B /* SyntaxKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SyntaxKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2122A6E91B22B9320006409B /* SyntaxKitTests-macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SyntaxKitTests-macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2198CECA1B36D5D700BD463F /* SyntaxKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SyntaxKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C08C3C61C36FD6D00D8548F /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Color.swift; path = ../Color.swift; sourceTree = "<group>"; };
-		8C10B6431CC38E5200740E00 /* AttributedParsingOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = AttributedParsingOperation.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		72A0DAF424A0F2CF0078CF6F /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		8C10B6431CC38E5200740E00 /* AttributedParsingOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = AttributedParsingOperation.swift; sourceTree = "<group>"; };
 		8C4D09BF1E1EAF750034974A /* PerformanceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerformanceTests.swift; sourceTree = "<group>"; };
 		8C4D09C31E1EB0670034974A /* Latex.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Latex.tmLanguage; sourceTree = "<group>"; };
 		8C4D09C71E1EB07D0034974A /* Tex.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Tex.tmLanguage; sourceTree = "<group>"; };
@@ -228,13 +228,13 @@
 		8C9003321C5C0B0D00CBA5B0 /* ScopedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScopedString.swift; sourceTree = "<group>"; };
 		8CB2FD221C4D877D008ECD6D /* swifttest.swift.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = swifttest.swift.txt; sourceTree = "<group>"; };
 		8CB2FD251C4D87D6008ECD6D /* Solarized.tmTheme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Solarized.tmTheme; sourceTree = "<group>"; };
-		8CDD6F1A1C71594B0063915A /* BundleManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = BundleManager.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		8CE64FE21C74B48D0007BA57 /* Language.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = Language.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		8CDD6F1A1C71594B0063915A /* BundleManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = BundleManager.swift; sourceTree = "<group>"; };
+		8CE64FE21C74B48D0007BA57 /* Language.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = Language.swift; sourceTree = "<group>"; };
 		8CE6BE2D1C5D1BBA002676BD /* ScopedStringTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScopedStringTests.swift; sourceTree = "<group>"; };
 		8CE8D1131C4EBF58005A86B3 /* Swift.tmLanguage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Swift.tmLanguage; sourceTree = "<group>"; };
 		8CE8D1161C4EBF8F005A86B3 /* SwiftBaselineHighlightingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftBaselineHighlightingTests.swift; sourceTree = "<group>"; };
-		8CEEC0DD1C411C8600BF3E85 /* ReferenceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ReferenceManager.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		8CEEC0E11C411F9700BF3E85 /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = Repository.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		8CEEC0DD1C411C8600BF3E85 /* ReferenceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ReferenceManager.swift; sourceTree = "<group>"; };
+		8CEEC0E11C411F9700BF3E85 /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = Repository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -296,7 +296,6 @@
 		210299C11B2E8924009C61EE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				8C08C3C61C36FD6D00D8548F /* Color.swift */,
 				210299C21B2E8924009C61EE /* Info.plist */,
 			);
 			path = Resources;
@@ -371,6 +370,17 @@
 			isa = PBXGroup;
 			children = (
 				211989951B2EC38B00F0D786 /* SyntaxKit.h */,
+				72A0DAF024A0F1FB0078CF6F /* Sources */,
+				210299C11B2E8924009C61EE /* Resources */,
+				210299CD1B2E8924009C61EE /* Tests */,
+			);
+			path = SyntaxKit;
+			sourceTree = "<group>";
+		};
+		72A0DAF024A0F1FB0078CF6F /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				72A0DAF424A0F2CF0078CF6F /* Color.swift */,
 				8C10B6431CC38E5200740E00 /* AttributedParsingOperation.swift */,
 				2119898C1B2EC38B00F0D786 /* AttributedParser.swift */,
 				211989911B2EC38B00F0D786 /* Parser.swift */,
@@ -385,10 +395,8 @@
 				211989921B2EC38B00F0D786 /* Pattern.swift */,
 				2119898E1B2EC38B00F0D786 /* CaptureCollection.swift */,
 				2119898D1B2EC38B00F0D786 /* Capture.swift */,
-				210299C11B2E8924009C61EE /* Resources */,
-				210299CD1B2E8924009C61EE /* Tests */,
 			);
-			path = SyntaxKit;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -566,7 +574,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 1030;
+				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = "Sam Soffes";
 				TargetAttributes = {
 					211826D91D257A71003F2BF2 = {
@@ -727,9 +735,9 @@
 				8C2EB35C1D4B5126005ECE2B /* Repository.swift in Sources */,
 				8C2EB35D1D4B5126005ECE2B /* ReferenceManager.swift in Sources */,
 				8C2EB3581D4B510F005ECE2B /* Language.swift in Sources */,
-				8C2EB3571D4B50EE005ECE2B /* Color.swift in Sources */,
 				211826F91D257A7E003F2BF2 /* Theme.swift in Sources */,
 				211826F61D257A7E003F2BF2 /* Pattern.swift in Sources */,
+				72A0DAF724A0F2E20078CF6F /* Color.swift in Sources */,
 				211826F21D257A7E003F2BF2 /* Capture.swift in Sources */,
 				211826F51D257A7E003F2BF2 /* Parser.swift in Sources */,
 				211826F71D257A7E003F2BF2 /* Result.swift in Sources */,
@@ -761,13 +769,13 @@
 			files = (
 				211989C01B2EC40500F0D786 /* Capture.swift in Sources */,
 				211989C41B2EC40500F0D786 /* Parser.swift in Sources */,
-				8C08C3C71C36FD6D00D8548F /* Color.swift in Sources */,
 				8C9003341C5C0B0D00CBA5B0 /* ScopedString.swift in Sources */,
 				211989C11B2EC40500F0D786 /* CaptureCollection.swift in Sources */,
 				8CEEC0DF1C411C8600BF3E85 /* ReferenceManager.swift in Sources */,
 				211989C71B2EC40500F0D786 /* ResultSet.swift in Sources */,
 				8C10B6451CC38E5200740E00 /* AttributedParsingOperation.swift in Sources */,
 				8CDD6F1C1C71594B0063915A /* BundleManager.swift in Sources */,
+				72A0DAF624A0F2E10078CF6F /* Color.swift in Sources */,
 				211989C51B2EC40500F0D786 /* Pattern.swift in Sources */,
 				211989C81B2EC40500F0D786 /* Theme.swift in Sources */,
 				211989C61B2EC40500F0D786 /* Result.swift in Sources */,
@@ -805,7 +813,7 @@
 				8CEEC0DE1C411C8600BF3E85 /* ReferenceManager.swift in Sources */,
 				8CEEC0E21C411F9700BF3E85 /* Repository.swift in Sources */,
 				2119899F1B2EC38B00F0D786 /* ResultSet.swift in Sources */,
-				8C10B6471CC3937F00740E00 /* Color.swift in Sources */,
+				72A0DAF524A0F2CF0078CF6F /* Color.swift in Sources */,
 				2119899D1B2EC38B00F0D786 /* Pattern.swift in Sources */,
 				211989A11B2EC38B00F0D786 /* Theme.swift in Sources */,
 				2119899E1B2EC38B00F0D786 /* Result.swift in Sources */,
@@ -843,8 +851,8 @@
 				8CEEC0E01C411C8600BF3E85 /* ReferenceManager.swift in Sources */,
 				8C10B6461CC38E5200740E00 /* AttributedParsingOperation.swift in Sources */,
 				8CEEC0E41C411F9700BF3E85 /* Repository.swift in Sources */,
+				72A0DAF824A0F2E30078CF6F /* Color.swift in Sources */,
 				2198CEDA1B36D5DE00BD463F /* ResultSet.swift in Sources */,
-				8C10B6481CC3938100740E00 /* Color.swift in Sources */,
 				8C10B6491CC393E700740E00 /* ScopedString.swift in Sources */,
 				2198CED81B36D5DE00BD463F /* Pattern.swift in Sources */,
 				2198CEDB1B36D5DE00BD463F /* Theme.swift in Sources */,
@@ -957,7 +965,7 @@
 		211989B91B2EC3B600F0D786 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -980,7 +988,7 @@
 		211989BA1B2EC3B600F0D786 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
